@@ -556,7 +556,7 @@ service test와 비슷하지만 controller test시에는 MockMVC를 사용하여
 
 테스트 실행 결과는 다음과 같다.
 
-![alt text](image.png)
+![alt text](imgs/test_4.png)
 
 ## 배운점
 동시성 처리 test를 실제로 여러 컴퓨터에서 api를 요청하지 않아도 ExecutorService라는 클래스를 통해 테스트할 수 있다는 것을 알게되었고 동시성 처리시에 Lock을 걸어 처리하면 실제로 잘 동작한다는 것을 확인할 수 있었다.
